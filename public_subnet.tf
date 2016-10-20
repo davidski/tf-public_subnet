@@ -5,5 +5,6 @@ resource "aws_subnet" "s1" {
   tags {
     description = "Allows direct inbound access"
     Name = "Public Subnet"
+    managed_by = "Terraform"
   }
 }
